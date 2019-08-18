@@ -15,7 +15,7 @@
     <p>First I found the card type is Mifare 1K by using smartphone's
       NFC feature. Then I searched for card read write device, found
       ACR122U-A9 with ~USD16, quite cheap and decided to give it a try.<br>
-      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/wiki/acr122u-a9.jpg" alt="" width="302" height="201"><br>
+      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/raw/master/wiki/acr122u-a9.jpg" alt="" width="302" height="201"><br>
     </p>
     <p><br>
       <br>
@@ -34,7 +34,7 @@
       without any encryption, and the system does not validate any data
       on Sector 0 Block 0 for UID BCC SAK ATQA, the system read Sector 1
       with Key A only to compare if the ID is valid in the database.<img
-        src="https://github.com/seasonw/mifare-classic-read-write-tool/wiki/sector0-1.jpg" alt=""><br>
+        src="https://github.com/seasonw/mifare-classic-read-write-tool/raw/master/wiki/sector0-1.jpg" alt=""><br>
       <br>
       <br>
     </p>
@@ -81,15 +81,15 @@
     <p><br>
       READ page: Read the Mifare card, displays UID + ID of the card
       that used to validate with system + Address.<br>
-      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/wiki/app_read.jpg" alt="" width="344" height="574"><br>
+      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/raw/master/wiki/app_read.jpg" alt="" width="344" height="574"><br>
     </p>
     <p>WRITE page: Write to blank or overwrite to a writable card, with
       info of ID and Address (No UID changes because the system does not
       validate UID, any UID will do).<br>
-      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/wiki/app_write.jpg" alt="" width="344" height="574"></p>
+      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/raw/master/wiki/app_write.jpg" alt="" width="344" height="574"></p>
     <p>INFO page: Version info, description and credits of the app. BTW,
       <b>Zone7 </b>is my residential name. <br>
-      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/wiki/app_info.jpg" alt="" width="344" height="574"></p>
+      <img src="https://github.com/seasonw/mifare-classic-read-write-tool/raw/master/wiki/app_info.jpg" alt="" width="344" height="574"></p>
     <br>
     <p><br>
     </p>
