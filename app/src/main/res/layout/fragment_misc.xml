@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiscFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_version"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                tools:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/text_text_version"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/design_default_color_primary_dark" />
+
+            <TextView
+                android:id="@+id/labelDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_desc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                tools:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/text_text_desc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/design_default_color_primary_dark" />
+
+            <TextView
+                android:id="@+id/labelDevelop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_develop"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                tools:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textDevelop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/text_text_develop"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/design_default_color_primary_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

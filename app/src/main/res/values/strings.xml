@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Mifare Read Write Tool (Zone7)</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_misc">Info</string>
+    <string name="title_read">Read</string>
+    <string name="title_write">Write</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info_no_tag_found">I: There is no MIFARE Classic tag</string>
+    <string name="error_tag_not1k">E: Tag NOT 1K</string>
+    <string name="error_notzone7_tag">E: NOT Zone7 tag</string>
+    <string name="error_notzone7blank_tag">E: NOT Zone7/blank tag</string>
+    <string name="warning_notag">W: No tag found</string>
+    <string name="error_invalid_zone7id">E: Invalid Zone7 ID</string>
+    <string name="error_invalid_address">E: Invalid Address</string>
+    <string name="info_tag_write_success">I: Successfully written to tag</string>
+
+    <string name="text_write">Write</string>
+    <string name="text_new_tag">New Tag</string>
+    <string name="text_no_nfc">No NFC hardware found</string>
+    <string name="text_not_support_mifareclassic">Not support Mifare Classic</string>
+    <string name="text_enable_nfc">Please enable NFC</string>
+    <string name="text_label_uid">UID:</string>
+    <string name="text_text_uid">1A2B3C4D</string>
+    <string name="text_label_zone7id">Zone7 ID:</string>
+    <string name="text_text_zone7id">65536</string>
+    <string name="text_label_address">Address:</string>
+    <string name="text_text_address">99, 7/99</string>
+    <string name="text_label_version">Version:</string>
+    <string name="text_text_version">1.0.0.0</string>
+    <string name="text_label_desc">Description:</string>
+    <string name="text_text_desc">This App is designed solely for Zone7 to read and write entrance access card. It read and writes main data (Zone7 ID) and a newly added data (Address) for Version 2 of entrance access card. Address field eases the job to check the owner of card without system.</string>
+    <string name="text_label_develop">Development:</string>
+    <string name="text_text_develop">Using Android Studio. Source code At https://github.com/seasonw/mifare-classic-read-write-tool. By Season W. CREDITS: Mifare Classic core library forked from https://github.com/ikarus23/MifareClassicTool.\n\n</string>
+</resources>

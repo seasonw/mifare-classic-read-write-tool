@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_read"
+        android:icon="@drawable/ic_read_black_24dp"
+        android:title="@string/title_read" />
+
+    <item
+        android:id="@+id/navigation_write"
+        android:icon="@drawable/ic_write_black_24dp"
+        android:title="@string/title_write" />
+
+    <item
+        android:id="@+id/navigation_misc"
+        android:icon="@drawable/ic_misc_black_24dp"
+        android:title="@string/title_misc" />
+
+</menu>
